@@ -37,4 +37,3 @@ Claro! Vamos detalhar um pouco mais cada parte do código:
 - Os clientes são criados com um saldo inicial e realizam compras nas lojas, pagando pelos produtos através de transferências bancárias.
 - No final, as lojas realizam o pagamento dos salários dos funcionários.
 
-Esse código é uma simplificação e serve para ilustrar como um sistema bancário poderia ser implementado em Java, utilizando threads para simular a interação entre as entidades do sistema.
