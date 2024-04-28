@@ -1,7 +1,5 @@
 # ProjetoSistemaBanco
 
-Claro! Vamos detalhar um pouco mais cada parte do código:
-
 ### Banco
 - A classe `Banco` possui um `Lock` que é utilizado para garantir que as transferências entre contas sejam feitas de forma segura, evitando condições de corrida.
 - O método `transferencia` recebe a conta de origem, a conta de destino e o valor a ser transferido. Antes de realizar a transferência, ele verifica se a conta de origem possui saldo suficiente. Se sim, realiza a transferência debitando o valor da conta de origem e creditando na conta de destino. Caso contrário, exibe uma mensagem informando que a transferência não foi realizada devido a saldo insuficiente.
